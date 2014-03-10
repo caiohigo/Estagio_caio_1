@@ -23,9 +23,9 @@ public class PersonServiceImpl implements PersonService {
 	 */
 	@Transactional
 	public void inser(){
-		personRepository.save(new Person ("Claudio", "Matias"));
-		personRepository.save(new Person ("Antonio", "Oliveira"));
-		personRepository.save(new Person ("Adss", "Tres"));
+		personRepository.save(new Person ("Caio", "Higo"));
+		personRepository.save(new Person ("Ade", "Ara"));
+		personRepository.save(new Person ("Clau", "CE"));
 	}
 	
 	/* (non-Javadoc)
